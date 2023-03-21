@@ -3,13 +3,15 @@ package src;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.ListIterator;
+import java.util.List;
+
 
 public class ArrayLists {
 
 
     public static void main(String[] args) {
 
-        ArrayList<Integer> arrayList = new ArrayList<>(); //creates arraylist
+        List<Integer> arrayList = new ArrayList<>(); //creates arraylist
         arrayList.add(2);
         arrayList.add(3);
         arrayList.add(4);
@@ -79,6 +81,10 @@ public class ArrayLists {
   // 3. Understand multithread and synchroniation
 
 
+        arrayList.add(4);
+        arrayList.add(6);
+        arrayList.add(7);
+        System.out.println(arrayList);
 
 
 
